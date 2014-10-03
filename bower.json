@@ -1,0 +1,21 @@
+{
+  "name": "cbhs",
+  "version": "0.0.0",
+  "authors": [
+    "Jon Burgess <jon.burgess@digitalanimal.com>"
+  ],
+  "description": "Codsall and Bilbrook History Society",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.2.0",
+    "jquery": "~2.1.1"
+  }
+}
