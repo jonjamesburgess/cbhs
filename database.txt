@@ -1,0 +1,23 @@
+sections = [
+	{ "name": "index", "route": "/" },
+	{ "name": "events", "route": "/events" },
+	{ "name": "publications", "route": "/publications" },
+	{ "name": "gallery", "route": "/gallery" }
+]
+db.sections.insert(sections);
+
+links =[
+	{ "name": "Home", "section": "index", "url": "index.html" },
+	{ "name": "Newsletter", "section": "index", "url": "news.html" },
+	{ "name": "Programme", "section": "events", "url": "programe.html" },
+	{ "name": "Online", "section": "publications", "url": "online.html" },
+	{ "name": "Printed", "section": "publications", "url": "printed.html" },
+	{ "name": "Chruch Documents", "section": "gallery", "url": "docs.html" },
+	{ "name": "Chruch Documents", "section": "gallery", "url": "docs.html" },
+	{ "name": "Codsall", "section": "gallery", "url": "codsall.html" },
+	{ "name": "Codsall Wood", "section": "gallery", "url": "codsallwood.html" },
+	{ "name": "Oaken", "section": "gallery", "url": "oaken.html" },
+	{ "name": "School Pictures", "section": "gallery", "url": "school.html" },
+	{ "name": "Miscellaneous", "section": "gallery", "url": "misc.html" }
+]
+db.links.insert(links);
